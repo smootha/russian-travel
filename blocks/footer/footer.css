@@ -1,0 +1,30 @@
+.footer {
+  margin: 0 auto;
+  padding-bottom: 24px;
+  width: calc(100vw - 96px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  row-gap: 48px;
+  -webkit-column-gap: 48px;
+     -moz-column-gap: 48px;
+          column-gap: 48px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    min-width: 720px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    min-width: 288px;
+    width: calc(100vw - 48px);
+  }
+}
