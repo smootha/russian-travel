@@ -3,7 +3,8 @@
   font-size: 96px;
   font-weight: 900;
   line-height: 100px;
-  width: 720px;
+  max-width: 720px;
+  width: 100%;
   text-align: center;
   color: #fff;
 }
@@ -13,7 +14,7 @@
   .lead__title {
     font-size: calc(100vw / 8);
     line-height: calc(100vw / 8 + 4px);
-    width: calc(100vw - 48px);
+    max-width: calc(100vw - 48px);
     min-width: 288px;
   }
 }

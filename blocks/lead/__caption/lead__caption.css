@@ -7,6 +7,7 @@
   letter-spacing: 1.5px;
 }
 
+/* Для плавного появления маржина */
 @media screen and (max-width: 792px) {
   .lead__caption {
     margin-left: calc(792px - 100vw);

@@ -5,12 +5,15 @@
   font-weight: 900;
   text-align: center;
   margin: 0 auto;
+  width: 100%;
 }
 
 @media screen and (max-width: 768px) {
   .cover__title {
     font-size: calc(32px + (72 - 32) * ((100vw - 320px) / (768 - 320)));
     line-height: calc(35px + (76 - 32) * ((100vw - 320px) / (768 - 320)));
+    max-width: calc(100vw / 768 * 560);
+    min-width: 288px;
   }
 }
 
@@ -18,5 +21,6 @@
   .cover__title {
     font-size: 32px;
     line-height: 35px;
+    width: 288px;
   }
 }
