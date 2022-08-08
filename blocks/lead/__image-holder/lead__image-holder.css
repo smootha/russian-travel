@@ -1,5 +1,5 @@
 .lead__image-holder {
-  margin-top: 64px;
+  margin: 64px 0 0;
 }
 
 @media screen and (max-width: 1024px) {

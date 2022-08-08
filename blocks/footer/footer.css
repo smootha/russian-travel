@@ -28,3 +28,9 @@
     width: calc(100vw - 48px);
   }
 }
+
+@media screen and (max-width: 400px) {
+  .footer {
+    padding: 0 16px 24px;
+  }
+}

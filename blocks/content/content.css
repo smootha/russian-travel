@@ -10,9 +10,16 @@
   gap: 92px;
 }
 
+@media screen and (max-width: 1024px) {
+  .content {
+    margin-top: 48px;
+    gap: 88px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .content {
-    margin: 48px auto 88px;
+    margin-bottom: 88px;
     gap: 88px;
   }
 }
