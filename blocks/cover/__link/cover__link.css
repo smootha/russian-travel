@@ -31,13 +31,6 @@
   background-color: #2a2c2f;
   opacity: .3;
   z-index: -1;
-  -webkit-transition: opacity .3s;
-  -o-transition: opacity .3s;
-  transition: opacity .3s;
-}
-
-.cover__link:hover::before {
-  opacity: .8;
 }
 
 @media screen and (max-width: 1024px) {
